@@ -1,9 +1,9 @@
-name: build sing-box with proxy providers
+name: build sing-box
 
 on: 
   workflow_dispatch:
   schedule:
-    - cron: "0 0 */3 * *"
+    - cron: "0 0 */7 * *"
         
   push:
     branches:
